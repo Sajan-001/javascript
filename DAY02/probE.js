@@ -1,0 +1,1 @@
+console.log("Code");console.log(2026);console.log(50+50);
