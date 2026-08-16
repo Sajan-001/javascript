@@ -1,0 +1,6 @@
+
+Salary + Bonus → Operator = + (Addition)
+Bank Balance - Withdrawal → Operator = - (Subtraction)
+Price × Quantity → Operator = * (Multiplication)
+Total Marks ÷ Subjects → Operator = / (Division)
+Find the remainder after division → Operator = % (Modulus)
