@@ -1,0 +1,7 @@
+console.log(attendance >= 75);
+
+console.log(orderAmount >= 999);
+
+console.log(age >= 18 && license === true);
+
+console.log(day === "Saturday" || day === "Sunday");

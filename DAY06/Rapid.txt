@@ -1,0 +1,19 @@
+1. Decision Making:-> It helps a program decide what to do.
+
+2. `==` vs `===`: `==` checks value, `===` checks value and type.
+
+3. `&&` vs `||`: `&&` means both, `||` means either one.
+
+4. `if...else`: Used to choose between two options.
+
+5. Nested `if`: An `if` inside another `if`.
+
+6. Reverse Boolean:`!`
+
+7. `>=`: Greater than or equal to.
+
+8.`!==`: Not equal in value or type.
+
+9. Value + Data Type: `===`
+
+10. Why conditions: To help software make decisions.

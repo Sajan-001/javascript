@@ -1,13 +1,13 @@
-📝 REFLECTION JOURNAL
+ REFLECTION JOURNAL
 
-Which operator did you find easiest?
-+ Addition operator.
+1.Which operator did you find easiest?
+-> + Addition operator.
 
-Which operator confused you the most?
-% Modulus operator.
+2.Which operator confused you the most?
+-> % Modulus operator.
 
-What debugging mistake did you make today?
-I forgot to use assignment operators like += when I wanted to update a variable.
+3.What debugging mistake did you make today?
+->I forgot to use assignment operators like += when I wanted to update a variable.
 
-Where are operators used in real software?
-Operators are used in calculators, banking apps, salary calculations, shopping carts, games, and many other programs.
+4.Where are operators used in real software?
+-> Operators are used in calculators, banking apps, salary calculations, shopping carts, games, and many other programs.

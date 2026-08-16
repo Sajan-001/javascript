@@ -1,0 +1,11 @@
+🧠 LAB 01 — Conditions
+1.Student can vote:
+age >= 18
+2.Free delivery:
+orderAmount >= 499
+3.Student passes:
+marks >= 33
+4.Can drive:
+age >= 18 && hasDrivingLicense
+5.Today is a holiday:
+day === "Saturday" || day === "Sunday"
