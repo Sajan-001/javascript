@@ -1,0 +1,10 @@
+1.Why do we use switch? — To choose one option from many fixed choices.
+2.When use if...else? — When conditions involve comparisons like >, <, >=, etc.
+What is break? — It stops the switch or loop.
+What is default? — It runs when no case matches.
+What is a Loop? — It repeats code again and again.
+What is an Infinite Loop? — A loop that never stops.
+Why update the loop variable? — To make the loop eventually stop.
+Difference between switch and if...else? — switch checks fixed values; if...else checks conditions.
+One real software using loops: — YouTube uses loops to display lists of videos.
+One real software using switch: — ATM software can use switch for menu choices.

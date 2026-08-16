@@ -1,0 +1,9 @@
+LAB 09 — Answers
+1.ATM — Balance, Deposit, Withdraw, Mini Statement
+Answer: SWITCH
+2.School ERP — Generate Report Card for every student
+Answer: YES ✅
+3.Netflix — Display every movie
+Answer: YES ✅
+4.Food Delivery — Pending, Preparing, Delivered, Cancelled
+Answer: SWITCH

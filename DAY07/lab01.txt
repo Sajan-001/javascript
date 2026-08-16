@@ -1,0 +1,13 @@
+LAB 01 — Correct Answers
+
+1.Checking Grade (A, B, C, D) → SWITCH
+
+2. Checking Age >= 18 → IF...ELSE
+
+3.Traffic Signal (Red, Yellow, Green) → SWITCH
+
+4.Marks > 90 → IF...ELSE
+
+5.Payment Status (Pending, Paid, Cancelled, Refunded) → SWITCH
+
+6.Temperature > 40 → IF...ELSE
