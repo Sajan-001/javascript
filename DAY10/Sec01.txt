@@ -1,0 +1,12 @@
+// 1. Function Expression
+const add = function(a, b) {
+    return a + b;
+};
+
+// 2. Arrow Function
+const addArrow = (a, b) => {
+    return a + b;
+};
+
+// 3. Concise Arrow Function
+const addConcise = (a, b) => a + b;

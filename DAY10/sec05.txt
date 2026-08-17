@@ -1,0 +1,11 @@
+//Problem: The function calculates a + b but does not return the result, so it returns undefined.
+
+Fix:
+
+const add = (a, b) => {
+    return a + b;
+};
+
+
+console.log(add(5, 10));
+// Output: 15

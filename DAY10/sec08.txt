@@ -1,0 +1,7 @@
+Where is value accessible?
+→ Only inside the test() function.
+
+Will this work? → NO ❌
+
+Why?
+→ value is a local variable inside test(), so it cannot be accessed outside the function.

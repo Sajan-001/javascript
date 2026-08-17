@@ -1,0 +1,4 @@
+Answer: Rahul
+
+Why can the function access name?
+Because name is a global variable, so the function can access it from outside its own scope.

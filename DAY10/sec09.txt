@@ -1,0 +1,5 @@
+Does score work inside the block? → YES ✅
+
+Does it work outside? → NO ❌
+
+Why? → let is block-scoped, so score can only be used inside the { } block where it was created.

@@ -1,0 +1,3 @@
+Answer: B and C ✅
+
+Why? Both return the result of a + b; B uses return explicitly, while C uses concise arrow function syntax with an implicit return.
