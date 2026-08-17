@@ -1,0 +1,50 @@
+// Lab 06 — Bug Bounty
+//Bug #	What the code looks like it should do	What it actually does	Root cause
+//1	Print the student's name	ReferenceError	studentName is declared inside the function and used outside.
+//2	Print the global score 80 inside the function	Prints 50	A local score shadows the global score.
+//3	Print the block value outside the if	ReferenceError	let is block-scoped and cannot be accessed outside the block.
+// BUG 1
+function showStudent() {
+    let studentName = "Rahul";
+}
+
+
+showStudent();
+console.log(studentName);
+// ReferenceError: studentName is not defined
+
+
+
+
+// BUG 2
+let score = 80;
+
+
+function showScore() {
+    let score = 50;
+    console.log(score);
+}
+
+
+showScore();
+// Output: 50
+// Expected: 80
+
+
+
+
+// BUG 3
+if (true) {
+    let city = "Kolkata";
+    console.log(city);
+}
+
+
+console.log(city);
+// ReferenceError: city is not defined
+
+//Root causes:
+
+// Bug 1: Function scope
+// Bug 2: Variable shadowing
+// Bug 3: Block scope

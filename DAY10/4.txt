@@ -1,0 +1,56 @@
+// 4a
+let p = "P";
+
+function a() {
+    let q = "Q";
+
+    function b() {
+        let r = "R";
+
+        console.log(q);
+
+        // YOUR TRACE: b → a → Global
+        // Prediction: Q
+        // Result: Q 
+    }
+
+    b();
+}
+
+a();
+
+
+// 4b
+let m = 1;
+
+function outer() {
+    function inner() {
+        console.log(m);
+
+        // YOUR TRACE: inner → outer → Global
+        // Prediction: 1
+        // Result: 1 
+    }
+
+    inner();
+}
+
+outer();
+
+
+// 4c
+function outer() {
+    function inner() {
+        console.log(secretValue);
+
+        // YOUR TRACE: inner → outer → Global → Not Found
+        // Prediction: ReferenceError 
+    }
+
+    inner();
+}
+
+outer();
+
+// Expected error:
+// ReferenceError: secretValue is not defined
