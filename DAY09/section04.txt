@@ -1,0 +1,50 @@
+Section 04 — Debugging Mission
+
+Bug 01 — Never called
+Problem: Function is not executed.
+Cause: welcome() is never called.
+Fix:
+
+function welcome() {
+    console.log("Welcome");
+}
+welcome();
+
+Bug 02 — Missing return
+Problem: Function does not return the result.
+Cause: a + b is calculated but not returned.
+Fix:
+
+function calculateTotal(a, b) {
+    return a + b;
+}
+
+Bug 03 — Wrong responsibility
+Engineering problem: The function is doing too many tasks.
+Fix: Decompose it into smaller functions:
+
+calculateAverage()
+calculateGrade()
+printReport()
+checkPassStatus()
+generateSummary()
+validateMarks()
+
+Each function should have one clear responsibility.
+
+Bug 04 — Code after return
+Answer: NO — return immediately exits the function, so the code after it does not execute.
+
+Bug 05 — console.log instead of return
+Problem: square() prints the value but does not return it, so result becomes undefined.
+Fix:
+
+function square(number) {
+    return number * number;
+}
+
+
+let result = square(5);
+console.log(result);
+
+Output: 25

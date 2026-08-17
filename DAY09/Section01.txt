@@ -1,0 +1,22 @@
+Section 01 — Fundamentals
+
+Q1. What problem do functions primarily solve?
+Answer: Functions help us reuse code and avoid writing the same code repeatedly.
+
+Q2. Write greet() — should print Hello CodeWeavers.
+
+function greet() {
+    console.log("Hello CodeWeavers");
+}
+
+Q3. What statement executes it?
+Answer: greet();
+
+Q4. Predict output:
+
+Start
+Hello
+End
+
+Q5. Will this print anything?
+Answer: NO — because the function is only defined, not called.

@@ -1,0 +1,13 @@
+Section 10 — Logical Thinking
+
+Q24. calculateTotal(10, 20, 30) — arguments are?
+→ 10, 20, 30
+
+Q25. function calculateTotal(a, b, c) {} — parameters are?
+→ a, b, c
+
+Q26. More maintainable: (A) one 150-line function or (B) several small functions?
+→ B — Several small functions. Why? Easier to understand, test, debug, and reuse.
+
+Q27. Need the result later in the program — console.log() or return?
+→ return. Why? It sends the result back so we can store or use it later.

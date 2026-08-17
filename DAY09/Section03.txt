@@ -1,0 +1,24 @@
+Section 03 — Return Values
+
+Q11. In one sentence, what does return do?
+Answer: return sends a value back from a function.
+
+Q12. Predict:
+Output: 30
+
+Q13. Dry run:
+Call: square(5) → Param: number = 5 → Calc: 5 × 5 → Returned: 25 → Output: 25
+
+Q14. Difference between console.log() and return:
+Answer: console.log() displays a value, while return sends a value back from the function.
+
+Q15. Debug and fix:
+Fix:
+
+function add(a, b) {
+    return a + b;
+}
+let result = add(5, 10);
+console.log(result);
+
+Output: 15

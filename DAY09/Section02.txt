@@ -1,0 +1,15 @@
+Section 02 — Parameters & Arguments
+
+Q6. Parameter: name
+
+Q7. Arguments: "Rahul" and "Priya"
+
+Q8. Output: 30 | a = 10 | b = 20 | a+b = 30
+
+Q9.
+
+function multiply(a, b) {
+    return a * b;
+}
+
+Q10. Parameter = variable in function definition | Argument = actual value passed to the function

@@ -1,0 +1,19 @@
+Section 08 — Problem Decomposition
+
+Q21. Function names only:
+
+calculateTotal()
+calculateAverage()
+checkPassStatus()
+getGrade()
+generateSummary()
+
+Q22. Map responsibility → function:
+
+calculateTotal() → Calculate total marks
+calculateAverage() → Calculate average marks
+checkPassStatus() → Check PASS or FAIL
+getGrade() → Find the student's grade
+generateSummary() → Create the final student summary
+
+Q23. Why is this better than one 150-line analyzeStudent()?
