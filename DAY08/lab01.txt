@@ -1,0 +1,9 @@
+ 01 — Choose the Best Loop
+#	Scenario	                                               Answer
+1	Print numbers 1 → 100	                                     for
+2	Display ATM menu until user exits	                       do...while
+3	Display every product in Amazon's product list	            for...of
+4	Display every student roll number 1 → 60	                    for
+5	Display every key of an object	                              for...in
+6	Keep checking server response until success	                  while
+7	Execute code at least once	                                do...while

@@ -1,0 +1,6 @@
+Scenario	                                    Best Loop
+Netflix — display every movie	                for...of
+Instagram — display every reel	                 for...of
+School ERP — generate report card for every student	   for...of
+Online Exam — keep asking question until quiz ends	     while
+Bank — display every transaction	                 for...of

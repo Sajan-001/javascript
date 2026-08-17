@@ -1,0 +1,10 @@
+while vs do...while: while may run zero times, but do...while runs at least once.
+When use for loop? When you know how many times you want to repeat something.
+break: Stops the loop completely.
+continue: Skips the current round and moves to the next round.
+Nested Loop: A loop inside another loop.
+for...of vs for...in: for...of gives values, while for...in gives indexes/keys.
+Which loop always runs once? do...while.
+Which iterator returns values? for...of.
+Which iterator returns indexes? for...in.
+Why use loops? To repeat tasks without writing the same code again and again.
